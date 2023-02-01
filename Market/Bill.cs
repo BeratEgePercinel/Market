@@ -10,5 +10,8 @@ namespace Market
         public int Unit { get; set; }
         public int UnitPrice { get; set; }
         public int TotalPrice { get; set; }
+        public int SupplierID { get; set; }
+        public Supplier Supplier { get; set; }
+        public List<BillProduct> BillProducts { get; set; }
     }
 }

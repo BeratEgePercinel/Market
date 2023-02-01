@@ -7,6 +7,9 @@ namespace Market
     public class Receipt
     {
         public int ID { get; set; }
-        public Sell Sell { get; set; }
+        public DateTime Date { get; set; }
+        public int Price { get; set; }
+        public int No { get; set; }
+        public List<ReceiptProduct> ReceiptProducts { get; set; }
     }
 }
